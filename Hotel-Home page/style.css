@@ -1,0 +1,192 @@
+.nav{
+    flex-flow: row wrap;
+    background-color: rgb(5, 5, 5);
+    display:flex;
+    
+    
+    align-items: center;
+    height: 16vh;
+}
+body{
+    background-color: rgb(188, 184, 184);
+    position: relative;
+    background-image: url('hotel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.zante{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4em;
+    margin-left: 1em;
+    color: azure;
+    padding-right: 25px;
+    border-right:3px solid rgb(247, 246, 246) ;
+}
+.home{
+    justify-content: center;
+
+   
+}
+
+.h{
+    color: rgb(255, 253, 253);
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 10px;
+}
+.h:hover{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+}
+.book{
+    color: white;
+    background-color: rgb(247, 147, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+}
+.book:hover{
+    background-color: white;
+    color: rgb(247, 147, 41);
+}
+.wel{
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 3em;
+    margin-top: 2em;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+.star{
+    height: 1em;
+    width: 1em;
+    position: relative;
+    
+}
+.s{
+  margin-left: 6em;
+  display: flex;
+}
+.lux{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+    letter-spacing: 4px;
+    margin-left: 1em;
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    align-items: left;
+    width: 40vh;
+    
+    margin-left: 180vh;
+    position: absolute;
+    top:12em;
+    right: 5em;
+    text-align: center;
+    padding: 10px;
+
+}
+.select{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.guests{
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.button{
+    margin-top: 2em;
+    color: white;
+    background-color: rgb(247, 147, 41);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    border: 0;
+    font-size: medium;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 1px black;
+
+
+}
+.bs{
+    background-color: rgb(228, 225, 225);
+    padding: 5px;
+    font-size: large;
+    margin-top: 0;
+}
+.detail{
+    color: white;
+    margin-left: 6em;
+}
+.wifi{
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+
+}
+
+
+.fac{
+    display: flex;
+   margin-left: 5em;
+   margin-top: 2em;
+}
+h2{
+    color: white;
+    margin-left: 4em;
+    margin-top:2em ;
+}
+
+
+@media(max-width:768px){
+    .h{
+        font-size: medium;
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    
+        margin: px;
+    }
+    .book{
+    font-size: medium;
+
+    }
+    .zante{
+    font-size: medium;
+
+    }
+
+}
