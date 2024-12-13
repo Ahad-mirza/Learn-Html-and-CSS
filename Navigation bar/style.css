@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: rgb(217, 216, 216);
+}
+
+.material-symbols-outlined {
+    
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+   justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+.img{
+    height: 1.5em;
+    width: 1.5em;
+    gap: 0;
+    margin: 0;
+}
+.divi{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+   
+}
+.buy{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(250, 208, 23);
+    color: white;
+   border-radius: 10px;
+}
+.buy:hover{
+    color: black;
+    background-color:white;
+}
+.info{
+    display: flex;
+    
+    justify-content: center;
+    gap: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    box-shadow: 2px ;
+    background-color: antiquewhite;
+    padding-left: 0;
+    flex-wrap: wrap;
+
+}
+.info1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.info input{
+    height: 2em;
+   
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.info.material-symbols-outlined{
+   justify-items: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.image{
+    display: flex;
+    gap: 40px;
+}
+.arrow{
+    display: flex;
+}
+.icon{
+    display: flex;
+    
+}
+.k{
+    margin-left: 0;
+    height: 1em;
+    background-color: rgb(250, 208, 23) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 5vh;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.k:hover{
+    color: white;
+    background-color: black;
+}
+@media (max-width: 768px) 
+   {
+    .img{
+        display: none;
+    }
+   }
